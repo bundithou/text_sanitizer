@@ -1,17 +1,18 @@
-[2022-02-27 00:00:16,647] raw text:
+[2022-02-27 00:17:45,842] raw text:
 This is a 	 tab
 Count me baby
-[2022-02-27 00:00:16,647] lower:
+[2022-02-27 00:17:45,842] lower:
 this is a 	 tab
 count me baby
-[2022-02-27 00:00:16,647] replace from 	 to ____:
+[2022-02-27 00:17:45,842] replace from 	 to ____:
 this is a ____ tab
 count me baby
-[2022-02-27 00:00:16,647] print character's count
+[2022-02-27 00:17:45,842] print character's count
 count letters
 ================
-letter : countnewline: 1
-       : 6
+letter : count
+newline: 1
+space  : 6
 _      : 4
 a      : 3
 b      : 3

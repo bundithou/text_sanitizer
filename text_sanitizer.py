@@ -48,9 +48,10 @@ class TextSanitizer:
     '''
     def print_char_count(self, raw_text: string):
         counter = Counter(raw_text)
-        text = "count letters\n================\nletter : count"
+        text = "count letters\n================\nletter : count\n"
         for letter, count in sorted(counter.items()):
             if letter == '\n': letter = letter.replace('\n', 'newline')
+            if letter == ' ': letter = letter.replace(' ', 'space')
             text = text + f"{letter:7}: {count}\n"
 
         print(text)
